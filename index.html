@@ -17,6 +17,7 @@
         <meta property="og:title" content="Felipe Rodolfo - Desenvolvedor Front-end" />
         <meta property="og:description" content="Felipe Rodolfo desenvolvedor front-end em João Pessoa" />
 
+        <link rel="stylesheet" href="css/animate.css"/>
         <link rel="stylesheet" href="css/style.css"/>
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
       
@@ -24,7 +25,7 @@
     <body>
         <header class="bg-gray linear-gradient-blue">
                 <div class="container">
-                    <div class="box-medium p-relative">
+                    <div class="box-medium p-relative animated bounceInDown">
                         
                             <h1 class="main-title"><em>Felipe Rodolfo</em></h1>
                             <p class="tagline">Sou um desenvolvedor versátil, que ama criar ferramentas para facilitar a vida das pessoas, motivado por executar tarefas que geram resultados impactantes e adoro participar de novos projetos e desafios.</p>
@@ -44,7 +45,7 @@
             </div>
         </header>
         <main>
-            <article class="padTB bg-light">
+            <article class="padTB bg-light js--section-hello">
                 <div class="container">
                     <div class="box-medium">
                         <h1 class="subtitle">Hello World</h1>
@@ -61,7 +62,7 @@
                     </div>
                 </div>
             </article>
-            <article class="bg-white padTB text-center">
+            <article class="bg-white padTB text-center js--section-why">
                 <div class="container">
                     <h1 class="subtitle">Por quê?</h1>
                     <p class="max-500 margCenter">Uma das coisas mais difíceis de descobrir na vida é: <a href="https://www.youtube.com/watch?v=BDwggVHYy-0" class="linkColor" target="_blank" title="Vídeo de Steve Jobs">escolher com o que trabalhar </a>. Quando você trabalha com o que ama, você não sente ansiedade para que o dia acabe logo e sim prazer pelo que faz e isso me leva a querer buscar o <em><a href="https://www.youtube.com/watch?v=hcRPGwP3HCc" class="linkColor" target="_blank">estado da arte</a></em> no desenvolvimento. Porque quando você se conecta a sua arte, tudo faz sentido e a busca para evoluir é diária e não tem fim.</p>
@@ -69,12 +70,12 @@
             </article>
             <article class="padTB bg-light">
                 <div class="container">
-                    <div class="box-medium">
+                    <div class="box-medium js--section-where-left">
                         <h1 class="subtitle">Onde eu irei chegar</h1>
                     <p class="m-margBot-20">Estarei trabalhando na área de desenvolvimento, criando soluções para tornar a vida das pessoas melhor. Com a constante busca pela evolução, quero está no nível da arte em poucos anos para que eu possa exercer minha profissão com excelência, fazendo diferença para o mundo.</p>
                     </div>
                     
-                    <div class="box-medium">
+                    <div class="box-medium js--section-where-right">
                         <figure>
                             <img class="border-radius-5 f-right" src="img/objetivo.jpg" alt="Objetivo" class="f-right">
                             <figcaption>
@@ -93,7 +94,9 @@
                 </div>
             </article>
         </main>
-
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.waypoints.js"></script>
+		<script src="js/script.js"></script>
         <!-- BEGIN JIVOSITE CODE {literal} -->
 <script type='text/javascript'>
 (function(){ var widget_id = 'QsgtXEMmfd';var d=document;var w=window;function l(){

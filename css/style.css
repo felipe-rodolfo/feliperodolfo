@@ -155,6 +155,36 @@ img {
     background: #1dd1a1;
 }
 
+/*JS ANIMATIONS*/
+.js--section-hello {
+    opacity: 0;
+}
+.js--section-hello .animated {
+    opacity: 1;
+}
+
+.js--section-why {
+    opacity: 0;
+}
+.js--section-why .animated {
+    opacity: 1;
+}
+
+.js--section-where-left {
+    opacity: 0;
+}
+
+.js--section-where-left .animated {
+    opacity: 1;
+}
+.js--section-where-right {
+    opacity: 0;
+}
+
+.js--section-where-right .animated {
+    opacity: 1;
+}
+
 /*MOBILE*/
 @media (max-width: 760px){
     .container {
